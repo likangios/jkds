@@ -18,14 +18,14 @@
 
 //基础类
 #import "AppDelegate.h"
-#import "AppDelegate+AppService.h"
-//
 #import "JKDSRootViewController.h"
 #import "JKDSRootNavigationController.h"
-#import "MBProgressHUD+JKDSMB.h"
 #import "AppManager.h"
-#import "UIColor+expanded.h"
 
+//类扩展
+#import "AppDelegate+AppService.h"
+#import "MBProgressHUD+JKDSMB.h"
+#import "UIColor+expanded.h"
 
 //第三方
 
@@ -34,5 +34,10 @@
 #import <Masonry.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <MJRefresh.h>
+#import <BlocksKit.h>
+#import <JQFMDB.h>
+#import <QMUIKit.h>
+#import <MJExtension.h>
+#import <AFNetworking.h>
 
 #endif /* jkdsPCH_pch */
